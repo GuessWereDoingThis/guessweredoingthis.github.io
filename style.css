@@ -52,7 +52,7 @@ a:hover {
   top: 0;
   width: 100%;
   background: #ffffff;
-  border-bottom: 0px solid #fff7eb;
+  border-bottom: 5px solid #fff7eb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,7 +64,7 @@ a:hover {
   display: flex;
   gap: 1.5rem;
   font-weight: normal;
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 /* === Section Layout === */
@@ -140,7 +140,7 @@ h2 {
 
 .gif {
   width: 100%;
-  max-width: 1000px;
+  max-width: 2000px;
   border-radius: 12px;
   margin-top: 1rem;
   margin-bottom: 5rem;
