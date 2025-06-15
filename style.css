@@ -13,7 +13,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Comic Neue', 'Comic Sans MS', cursive, sans-serif;
+  font-family: 'Comic Neue', cursive, sans-serif;
   background: linear-gradient(-45deg, #ffbc70, #ffc0cb, #ffbc70, #fff7eb);
   background-size: 400% 400%;
   animation: animatedGradient 15s ease infinite;
