@@ -5,7 +5,7 @@ html {
 /* === Base === */
 :root {
   --main-color: #ffbc70;
-  --text-color: #fff7eb;
+  --text-color: #ffffff;
   --soft-white: #fff7eb;
   --accent-color: #fff7eb; /* fun bubblegum pink */
 }
@@ -19,6 +19,7 @@ body {
   color: var(--text-color);
   scroll-behavior: smooth;
   text-align: center;
+  overflow-x: hidden;
 }
 
 @keyframes animatedGradient {
@@ -137,8 +138,8 @@ h2 {
 }
 
 .gif {
-  width: 150%;
-  max-width: 4600px;
+  width: 100%;
+  max-width: 1000px;
   border-radius: 12px;
   margin-top: 1rem;
   margin-bottom: 5rem;
@@ -242,8 +243,8 @@ footer {
 }
 
 .team-photo {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 0%;
   border: 3px solid #ffffff00;
@@ -253,15 +254,15 @@ footer {
 .team-handle {
   color: var(--text-color);
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin: 0.3rem 0;
 }
 
 .team-name {
-  font-size: 1.8rem;
+  font-size: 3rem;
   font-weight: bold;
   letter-spacing: 0.5px;
-  margin: 0.2rem 0;
+  margin: 0.1rem 0.1rem;
 }
 
 .team-role {
@@ -291,9 +292,51 @@ footer {
   font-family: 'Comic Sans MS', cursive;
   color: var(--text-color);
   letter-spacing: 1px;
-  margin: 2rem 0 5rem;
+  margin: 5rem 0 5rem;
 }
 
 #connect h2 {
   color: #1b1b1bc5;
+  margin-top: 3rem; /* adjust this value */
+  margin-bottom: -4rem; /* adjust if needed */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.social-icons img {
+  width: 48px;
+  height: 48px;
+  transition: transform 0.2s ease, filter 0.2s ease;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.2));
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+}
+
+.email-link a {
+  font-size: 1.2rem;
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 3px;
+  color: #00000098;
+  opacity: 0.9;
+  font-family: 'Comic Sans MS', cursive;
+  color: var(--text-color);
+  text-decoration: none;
+  border-bottom: 2px dashed var(--accent-color);
+  transition: all 0.3s ease;
+}
+
+.email-link a:hover {
+  color: var(--accent-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-bottom-style: solid;
 }
