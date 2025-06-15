@@ -419,3 +419,10 @@ footer {
     margin: 0 auto;
   }
 }
+
+.typing-text,
+.connect-tagline,
+.email-link a {
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive, sans-serif !important;
+  font-style: normal !important;
+}
